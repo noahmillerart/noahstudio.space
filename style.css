@@ -1,0 +1,173 @@
+/*
+Theme Name: Noah Studio
+Theme URI: noahstudio.space
+Author: Noah Miller
+Author URI: noahmiller.art
+Description: The original template of Noah Studio
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+a:link, a:visited, a:hover{
+  text-decoration: none;
+}
+
+.active{
+  font-weight: bold;
+}
+
+hr {
+  color: rgb(196, 196, 196);
+}
+
+.storelinks a:link, .storelinks a:visited{
+  background-color: #eeeeee;
+  border-radius: 2px;
+  font-weight: bold;
+  color: rgb(121, 33, 133);
+}
+.storelinks a:hover{
+  color: rgb(44, 44, 44);
+}
+
+/** Opacities **/
+.opacity{
+    opacity: 0.7;
+}
+.opacity a:link, .opacity a:visited{
+    opacity: 0.5;
+}
+.opacity a:hover{
+    opacity: 1;
+}
+
+.opacityhigh{
+  opacity: 0.9;
+}
+.opacityhigh a:link, .opacityhigh a:visited{
+  opacity: 0.5;
+}
+.opacityhigh a:hover{
+  opacity: 1;
+}
+
+.opacity04 {
+  opacity: 0.4;
+}
+.opacity04:hover {
+  opacity: 1;
+}
+.opacity1 {
+  opacity: 1;
+}
+
+
+/** Sizes **/
+.s25{
+    width: 25px;
+    height:auto;
+}
+.s100{
+  width: 100px;
+  height:auto; 
+}
+.s120{
+  width: 120px;
+  height:auto;
+}
+
+/** Header **/
+#header a:link, a:visited{
+  color: #561a5a;
+}
+#header a:hover{
+  color: #2f2c31;
+}
+.dropdown-menu .dropdown-item {
+  background-color: transparent !important;
+}
+
+
+/** Skills **/
+
+#skills {
+    background-color: #ececec;
+  }
+  #skills span{
+    font-weight: bold;
+    font-size: 20px;
+    color: #58127f;
+  }
+  #skills h5{
+    height: 40px;
+  }
+  .skillitem{
+    width: 100px;
+    display: inline-block;
+    height: 150px;
+    vertical-align: top;
+  }
+.progress {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+  }
+  .p-20 {
+    background-image: url(img/about/progress_20.png);
+  }
+  .p-30 {
+    background-image: url(img/about/progress_30.png);
+  }
+  .p-40 {
+    background-image: url(img/about/progress_40.png);
+  }
+  .p-50 {
+    background-image: url(img/about/progress_50.png);
+  }
+  .p-60 {
+    background-image: url(img/about/progress_60.png);
+  }
+  .p-70 {
+    background-image: url(img/about/progress_70.png);
+  }
+  .p-80 {
+    background-image: url(img/about/progress_80.png);
+  }
+  .p-90 {
+    background-image: url(img/about/progress_90.png);
+  }
+  .p-100 {
+    background-image: url(img/about/progress_100.png);
+  }
+
+/** I do **/
+
+.ido button {
+    background-color: #58127f;
+    border-style: none;
+}
+.ido button:hover {
+    background-color: #7a1081;
+}
+
+/** Footer **/
+#footer{
+    background: linear-gradient(to bottom, #7a1081, #58127f);
+    font-size: smaller;
+    color: white;
+}
+#footer a{
+    color: white;  
+}
+
+#backtop a{
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}
+#backtop a:hover{
+  color: #58127f;
+}
