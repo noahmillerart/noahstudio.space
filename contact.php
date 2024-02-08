@@ -9,23 +9,23 @@
             <form id="my-form" action="https://formspree.io/f/xgebjzdn" method="POST">
 
                 <div class="p-2">
-                  <span class="p-2"><b>First Name:</b></span>
-                  <input type="text" name="firstname" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  <span class="p-2"><b>First Name:</b></span> 
+                  <input type="text" name="firstname" class="form-control bg-light" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
 
                 <div class="p-2">
                   <span class="p-2"><b>Last Name:</b></span>
-                  <input type="text" name="lastname" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  <input type="text" name="lastname" class="form-control bg-light" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
     
                 <div class="p-2">
                   <span  class="p-2"><b>E-mail:</b></span>
-                  <input type="email" name="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  <input type="email" name="email" class="form-control bg-light" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
     
                 <div class="p-2">
                   <span class="p-2"><b>Message:</b></span>
-                  <textarea class="form-control" name="message" placeholder="Enter your message" rows="5"></textarea>
+                  <textarea class="form-control bg-light" name="message" placeholder="Enter your message" rows="5"></textarea>
                 </div>
 
               <div class="d-grid gap-2 d-md-flex justify-content-md-end p-2 ido">

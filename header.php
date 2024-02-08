@@ -13,7 +13,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<div class="bg-light container-fluid">
+
 
     <div class="container text-center p-5" id="header"><!--Header-->
 

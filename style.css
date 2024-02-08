@@ -20,15 +20,45 @@ hr {
   color: rgb(196, 196, 196);
 }
 
-.storelinks a:link, .storelinks a:visited{
-  background-color: #eeeeee;
-  border-radius: 2px;
-  font-weight: bold;
-  color: rgb(121, 33, 133);
+.banner {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #7a1081;
+  background-size: cover;
 }
-.storelinks a:hover{
-  color: rgb(44, 44, 44);
+.banner1{
+  background-image: url(img/banner1.gif);
 }
+.banner2{
+  background-image: url(img/banner2.gif);
+}
+.banner3{
+  background-image: url(img/banner3.gif);
+}
+.banner4{
+  background-image: url(img/banner4.gif);
+}
+.banner5{
+  background-image: url(img/banner5.gif);
+}
+.banner6{
+  background-image: url(img/banner6.gif);
+}
+.banner7{
+  background-image: url(img/banner7.gif);
+}
+.banner8{
+  background-image: url(img/banner8.gif);
+}
+.banner9{
+  background-image: url(img/banner9.gif);
+}
+.banner10{
+  background-image: url(img/banner10.gif);
+}
+
+
 
 /** Opacities **/
 .opacity{
@@ -152,6 +182,17 @@ hr {
 }
 .ido button:hover {
     background-color: #7a1081;
+}
+
+/** Store **/
+.storelinks a:link, .storelinks a:visited{
+  background-color: #eeeeee;
+  border-radius: 2px;
+  font-weight: bold;
+  color: rgb(121, 33, 133);
+}
+.storelinks a:hover{
+  color: rgb(44, 44, 44);
 }
 
 /** Footer **/

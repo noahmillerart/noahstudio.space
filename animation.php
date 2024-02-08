@@ -42,7 +42,7 @@
 
         <div class="col-md-4 mb-5">
 
-            <div class="p-4 text-center ido card">
+            <div class="p-4 text-center ido card bg-light">
                 <h1 class="display-6 pb-2">I animate your ideas!</h1>
                 <p>2D, 3D or anything you can imagine.</p>
                 <button type="button" class="btn btn-secondary btn-sm" onclick="window.location.href='<?php echo get_permalink(8); ?>'">Send a request</button>

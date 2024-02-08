@@ -1,5 +1,16 @@
 <?php get_header(); ?>
 
+<div class="container-fluid banner <?php echo getRandomBannerClass(); ?>">
+</div>
+
+<?php
+function getRandomBannerClass() {
+  $randomNumber = rand(1, 10);
+  $className = 'banner' . $randomNumber;
+  return $className;
+}
+?>
+
 <div class="container py-4">
     <div class="row">
       <div class="col-md-8 pb-4">
@@ -26,7 +37,7 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid bg-light">
 
     <div class="container pt-5">
 
