@@ -3,17 +3,14 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?php wp_title(); ?></title>
+    <title>Noah Studio <?php wp_title(); ?></title>
     <?php wp_head(); ?>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="<?php echo esc_url(get_bloginfo('stylesheet_url')); ?>" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/img/Favicon.png'); ?>" type="image/png">
 </head>
 <body <?php body_class(); ?>>
-
-
 
     <div class="container text-center p-5" id="header"><!--Header-->
 
@@ -60,6 +57,5 @@
                     </ul>
                 </div>
             </div>
-        </nav>                    
-            
+        </nav>                         
     </div><!--End Header-->
