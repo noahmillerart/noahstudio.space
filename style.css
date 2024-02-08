@@ -21,8 +21,12 @@ a:link, a:visited, a:hover{
   background-repeat: no-repeat;
   background-position: right;
   background-size: 8px;
-  padding-right: 4px;
-  background-position-y: center;
+}
+.external-link-white{
+  background-image: url(img/external_link_white.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 10px;
 }
 
 hr {

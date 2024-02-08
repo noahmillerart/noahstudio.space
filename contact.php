@@ -4,6 +4,7 @@
 
             <div class="text-center">
                 <h1 class="display-6">Get in Touch</h1>
+                <p>Please complete the form below or send an email to <b>noahmiller.art[at]gmail.com</b></p>
             </div>
 
             <form id="my-form" action="https://formspree.io/f/xgebjzdn" method="POST">
@@ -46,9 +47,7 @@
             
         </div>
         <div class="col-md-4 text-center pb-5">
-            <p>Please complete the form beside or send an email to <b>noahmiller.art[at]gmail.com</b></p>
-            <hr>
-            <p>Follow Noah Studio on Social Media</p>
+            <p>Follow me on Social Media</p>
             <ul class="list-inline opacity">
                 <li class="list-inline-item"><a href="https://twitter.com/NoahStudioArt" target="_blank" rel="noopener"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/twitter_b.png'); ?>" alt="Twitter" class="img-fluid s25"></a></li>
                 <li class="list-inline-item"><a href="https://www.instagram.com/noahstudio.space" target="_blank" rel="noopener"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/instagram_b.png'); ?>" alt="Instagram" class="img-fluid s25"></a></li>
@@ -58,7 +57,8 @@
                 <li class="list-inline-item"><a href="https://sketchfab.com/noahstudio" target="_blank" rel="noopener"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/sketchfab_b.png'); ?>" alt="Sketchfab" class="img-fluid s25"></a></li>
             </ul>
             <hr>
-            <p>São Paulo - Brazil</p>
+            <p><b>Noah Studio</b><br>São Paulo - Brazil</p>
+            <p class="small">Original Art signed by Noah Miller. Unlawful reproduction or use without permission is strictly prohibited.</p>
         </div>
     </div>
 </div>

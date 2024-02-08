@@ -10,9 +10,9 @@
         <ul class="list-inline opacity">
           <li class="p-1 list-inline-item"><a href="<?php $siteURL = home_url(); echo $siteURL; ?>/">Home</a></li>
           <li class="p-1 list-inline-item"><a href="<?php echo get_permalink(6); ?>">About</a></li>
-          <li class="p-1 list-inline-item"><a href="https://noahmiller.art" target="_blank" rel="noopener">Blog</a></li>
           <li class="p-1 list-inline-item"><a href="<?php echo get_permalink(8); ?>">Contact</a></li>
           <li class="p-1 list-inline-item"><a href="<?php echo get_permalink(55); ?>">Store</a></li>
+          <li class="p-1 list-inline-item external-link-white pe-3"><a href="https://noahmiller.art" target="_blank" rel="noopener">Blog</a></li>
         </ul>
 
         <ul class="list-inline opacity">

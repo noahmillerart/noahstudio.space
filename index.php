@@ -40,33 +40,33 @@ function getRandomBannerClass() {
 
     <div class="container pt-5">
 
-      <h1 class="display-4">What I do</h1>
+      <h1 class="display-2">What I do</h1>
 
-      <div class="row text-center py-5 opacityhigh">
+      <div class="row text-center py-4 opacityhigh">
         <div class="col-md-3 p-2">
           <div class="p-2">
-            <a href="/illustration/"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/illustration.png'); ?>" alt="Illustration" class="img-fluid rounded-circle"></a>
+            <a href="<?php echo get_permalink(49); ?>"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/illustration.png'); ?>" alt="Illustration" class="img-fluid rounded-circle s120"></a>
           </div>
           <h4>Illustration</h4>
           <p>Still images for your videos, web, or printing. Original Art signed by Noah Miller.</p>
         </div>
         <div class="col-md-3 p-2">
           <div class="p-2">
-            <a href="/animation/"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/animation.png'); ?>" alt="animation" class="img-fluid rounded-circle"></a>
+            <a href="<?php echo get_permalink(51); ?>"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/animation.png'); ?>" alt="animation" class="img-fluid rounded-circle s120"></a>
           </div>
           <h4>Animation</h4>
           <p>High-resolution animation, 2D and 3D. Meticulously crafted with expert composition and refined post-production techniques.</p>
         </div>
         <div class="col-md-3 p-2">
           <div class="p-2">
-            <a href="/design/"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/design.png'); ?>" alt="design" class="img-fluid rounded-circle"></a>
+            <a href="<?php echo get_permalink(53); ?>"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/design.png'); ?>" alt="design" class="img-fluid rounded-circle s120"></a>
           </div>
           <h4>Design</h4>
           <p>Noah Studio also offers Logo and Poster Design for your Movie or Serie.</p>
         </div>
         <div class="col-md-3 p-2">
           <div class="p-2">
-            <a href="/books/"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/books.png'); ?>" alt="books" class="img-fluid rounded-circle"></a>
+            <a href="<?php echo get_permalink(57); ?>"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/books.png'); ?>" alt="books" class="img-fluid rounded-circle s120"></a>
           </div>
           <h4>Books</h4>
           <p>The Amazing Stories of Maple & Siam, among other original books. (Coming Soon)</p>      

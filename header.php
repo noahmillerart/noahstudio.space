@@ -51,11 +51,11 @@
                         <li class="nav-item <?php echo (is_page(8)) ? 'active' : ''; ?>">
                             <a class="nav-link" href="<?php echo get_permalink(8); ?>" id="contact-link">Contact</a>
                         </li>
-                        <li class="nav-item external-link">
-                            <a class="nav-link" href="https://noahmiller.art" target="_blank" rel="noopener">Blog</a>
-                        </li>
                         <li class="nav-item <?php echo (is_page(55)) ? 'active' : ''; ?>">
                             <a class="nav-link" href="<?php echo get_permalink(55); ?>" rel="noopener">Store</a>
+                        </li>
+                        <li class="nav-item external-link pe-1">
+                            <a class="nav-link" href="https://noahmiller.art" target="_blank" rel="noopener">Blog</a>
                         </li>
                     </ul>
                 </div>
