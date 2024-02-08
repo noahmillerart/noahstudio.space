@@ -17,7 +17,9 @@
 
     <div class="container text-center p-5" id="header"><!--Header-->
 
-        <a href="<?php $siteURL = home_url(); echo $siteURL; ?>/"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/LogoNS_small_color.png'); ?>" alt="Logo" class="img-fluid"></a>
+        <a href="<?php echo home_url(); ?>/" class="home-link">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/LogoNS_small_color.png'); ?>" alt="Logo" class="img-fluid">
+        </a>         
         
         <nav class="navbar navbar-expand">
             <div class="container justify-content-center p-3">
@@ -29,19 +31,27 @@
                         <li class="nav-item <?php echo (is_page(6)) ? 'active' : ''; ?>">
                             <a class="nav-link" href="<?php echo get_permalink(6); ?>">About</a>
                         </li>
-                        <li class="nav-item dropdown <?php echo (is_page(array(49, 51, 53, 57)) || in_category(array('illustration', 'animation', 'design', 'books'))) ? 'active' : ''; ?>">
+                        <li class="nav-item dropdown <?php echo (is_page(array(49, 51, 53, 57)) || in_category(array('illustration', 'animation', 'design', 'books'))) && !is_front_page() ? 'active' : ''; ?>">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
                             <ul class="dropdown-menu">
-                                <li class="dropdown-item <?php echo (is_page(49) || in_category('illustration')) ? 'active' : ''; ?>"><a href="<?php echo get_permalink(49); ?>">Illustration</a></li>
-                                <li class="dropdown-item <?php echo (is_page(51) || in_category('animation')) ? 'active' : ''; ?>"><a href="<?php echo get_permalink(51); ?>">Animation</a></li>
-                                <li class="dropdown-item <?php echo (is_page(53) || in_category('design')) ? 'active' : ''; ?>"><a href="<?php echo get_permalink(53); ?>">Design</a></li>
-                                <li class="dropdown-item <?php echo (is_page(57) || in_category('books')) ? 'active' : ''; ?>"><a href="<?php echo get_permalink(57); ?>">Books</a></li>
-                            </ul>                            
-                        </li>                                            
+                                <li class="dropdown-item <?php echo (is_page(49) || in_category('illustration')) ? 'active' : ''; ?>">
+                                    <a href="<?php echo get_permalink(49); ?>">Illustration</a>
+                                </li>
+                                <li class="dropdown-item <?php echo (is_page(51) && !is_front_page()) || (in_category('animation') && !is_front_page()) ? 'active' : ''; ?>">
+                                    <a href="<?php echo get_permalink(51); ?>">Animation</a>
+                                </li>                                
+                                <li class="dropdown-item <?php echo (is_page(53) || in_category('design')) ? 'active' : ''; ?>">
+                                    <a href="<?php echo get_permalink(53); ?>">Design</a>
+                                </li>
+                                <li class="dropdown-item <?php echo (is_page(57) || in_category('books')) ? 'active' : ''; ?>">
+                                    <a href="<?php echo get_permalink(57); ?>">Books</a>
+                                </li>
+                            </ul>                                                     
+                        </li>                                                                                                         
                         <li class="nav-item <?php echo (is_page(8)) ? 'active' : ''; ?>">
                             <a class="nav-link" href="<?php echo get_permalink(8); ?>" id="contact-link">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item external-link">
                             <a class="nav-link" href="https://noahmiller.art" target="_blank" rel="noopener">Blog</a>
                         </li>
                         <li class="nav-item <?php echo (is_page(55)) ? 'active' : ''; ?>">

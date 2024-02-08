@@ -16,10 +16,20 @@ a:link, a:visited, a:hover{
   font-weight: bold;
 }
 
+.external-link{
+  background-image: url(img/external_link.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 8px;
+  padding-right: 4px;
+  background-position-y: center;
+}
+
 hr {
   color: rgb(196, 196, 196);
 }
 
+/** Banner Home **/
 .banner {
   height: 200px;
   background-repeat: no-repeat;
@@ -58,8 +68,6 @@ hr {
   background-image: url(img/banner10.gif);
 }
 
-
-
 /** Opacities **/
 .opacity{
     opacity: 0.7;
@@ -70,7 +78,6 @@ hr {
 .opacity a:hover{
     opacity: 1;
 }
-
 .opacityhigh{
   opacity: 0.9;
 }
@@ -80,7 +87,6 @@ hr {
 .opacityhigh a:hover{
   opacity: 1;
 }
-
 .opacity04 {
   opacity: 0.4;
 }
@@ -90,7 +96,6 @@ hr {
 .opacity1 {
   opacity: 1;
 }
-
 
 /** Sizes **/
 .s25{
@@ -117,9 +122,7 @@ hr {
   background-color: transparent !important;
 }
 
-
 /** Skills **/
-
 #skills {
     background-color: #ececec;
   }
@@ -175,7 +178,6 @@ hr {
   }
 
 /** I do **/
-
 .ido button {
     background-color: #58127f;
     border-style: none;

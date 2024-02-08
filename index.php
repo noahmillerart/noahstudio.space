@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container-fluid banner <?php echo getRandomBannerClass(); ?>">
-</div>
+<div class="container-fluid banner <?php echo getRandomBannerClass(); ?>"></div>
 
 <?php
 function getRandomBannerClass() {
