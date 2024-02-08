@@ -3,7 +3,7 @@
 
         <div class="col-md-8">
 
-            <ul class="list-inline opacityhigh text-center">
+            <ul class="list-inline opacityhigh text-center desaturated">
                 <?php $category_id = 'design';
                 
                 $args = array(

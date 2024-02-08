@@ -85,6 +85,12 @@ hr {
 .opacityhigh{
   opacity: 0.9;
 }
+.desaturated img{
+  filter: grayscale(80%);
+}
+.desaturated img:hover{
+  filter: grayscale(0%);
+}
 .opacityhigh a:link, .opacityhigh a:visited{
   opacity: 0.5;
 }
@@ -99,6 +105,7 @@ hr {
 }
 .opacity1 {
   opacity: 1;
+  filter: grayscale(0%) !important;
 }
 
 /** Sizes **/

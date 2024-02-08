@@ -11,7 +11,7 @@
     <h2 class="display-6">Illustrations</h2>
     <hr>
 
-    <ul class="list-inline">
+    <ul class="list-inline desaturated">
         <?php if ($query->have_posts()) : ?>
             <?php while ($query->have_posts()) : $query->the_post(); ?>
                 <?php

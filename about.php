@@ -18,6 +18,9 @@
                   <a href="https://www.fiverr.com/noahstudioart" target="_blank" rel="noopener"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/fiverr_b.png'); ?>" alt="Fiverr" class="img-fluid"></a>
                 </li>
                 <li class="list-inline-item s25 pt-2">
+                  <a href="https://www.upwork.com/freelancers/~01dd6f200308c0efca" target="_blank" rel="noopener"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/upwork_b.png'); ?>" alt="Upwork" class="img-fluid"></a>
+                </li>
+                <li class="list-inline-item s25 pt-2">
                   <a href="https://www.instagram.com/noahmiller.art" target="_blank" rel="noopener"><img src="<?php echo esc_url(get_template_directory_uri() . '/img/instagram_b.png'); ?>" alt="Instagram" class="img-fluid"></a>
                 </li>
                 <li class="list-inline-item s25 pt-2">
