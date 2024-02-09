@@ -25,8 +25,8 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center p-3" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item <?php echo (is_page(9)) ? 'active' : ''; ?>">
-                        <a class="nav-link" href="<?php echo get_permalink(9); ?>">About</a>
+                    <li class="nav-item <?php echo (is_page(6)) ? 'active' : ''; ?>">
+                        <a class="nav-link" href="<?php echo get_permalink(6); ?>">About</a>
                     </li>
                     <li class="nav-item dropdown <?php echo (is_page(array(49, 51, 53, 57)) || in_category(array('illustration', 'animation', 'design', 'books'))) && !is_front_page() ? 'active' : ''; ?>">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
